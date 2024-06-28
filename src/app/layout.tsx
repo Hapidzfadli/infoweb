@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Glory, Poppins  } from "next/font/google";
 import "./globals.css";
-
+import Head from 'next/head'
 const glory = Glory({ subsets: ["latin"] });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
@@ -33,6 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="google-site-verification" content="LsnvO6eolEiAfoWKP1WjT2PrzydGN5bwWnQIjXYMxvI" />
+      </Head>
       <body className= {poppins.className}>{children}</body>
     </html>
   );
