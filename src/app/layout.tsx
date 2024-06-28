@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description: "Tetap terupdate dengan informasi terbaru tentang website Kiosfilm21.",
   keywords: "Kiosfilm21, Downmovie21, informasi website, Lk21, Pusatfilm21, Indoseries21",
   authors: [{name : "Kiosfilm21"}],
+  verification : {
+    google : "LsnvO6eolEiAfoWKP1WjT2PrzydGN5bwWnQIjXYMxvI",
+  },
   openGraph: {
     title: "Kiosfilm21 - Update Info",
     description: "Stay updated with the latest information about Kiosfilm21 website.",
