@@ -1,5 +1,5 @@
 export const websites = [
-    { name: 'Kiosfilm21', url: 'http://206.189.86.39/' },
+    { name: 'Kiosfilm21', url: 'http://kiosfilm21.com/' },
     { name: 'Downmovie21', url: 'https://downmovie21.cloud/' },
     { name: 'Pusatfilm21', url: 'https://official.pusatfilm21.cloud' },
     { name: 'Lk21', url: 'http://68.183.188.69/' },
